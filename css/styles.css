@@ -38,6 +38,26 @@ nav:after {   /* Clearfix */
 	clear: both;
 }
 
+#social-bar {
+	height: 150px;
+	background-color: orange;
+	width: 50px;
+	position: fixed;
+	top: calc(50% - 75px); /* put it half-way between top & bottom of the SCREEN usually based on top of the social-bar container but here uses calc to adjust */
+	right: 20px; /* sits Left of screen by default and we have shifted to Right here inwards 20px */
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
