@@ -43,3 +43,20 @@ main {
 	left: 17px;
 }
 
+.feature {
+	background-color: white;
+	width: 300px;
+	padding: 10px;
+	position: relative; /* so that absolute below works */
+	padding-top: 30px; /* to push Heading down below img */
+	margin-top: 80px;  /* to move feature div down so not covering the text above */
+}
+
+.feature img {
+	position: absolute;
+	top: -60px;
+	left: calc(50% - 50px);
+	border-radius: 50%; /* make img into a circle ie radius = 50% in square img = */
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+
+}
