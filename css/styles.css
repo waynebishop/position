@@ -83,6 +83,24 @@ main {
 
 }
 
+/* below - popup hover txt */
 
+.popup:hover span {
+	display: inline-block;
+	background-color: #333333;
+	color: white;
+	padding: 5px;
+	position: absolute;
+	bottom: 100%;
+	left: 0;
 
+}
 
+.popup span { /* hide popup txt span */
+	display: none;
+}
+
+.popup {
+	position: relative; /* set relative for absolute above for .popup:hover span to work */
+	color: blue; /* just so we can see the word on the page */
+}
