@@ -69,14 +69,19 @@ main {
 	position: relative; /* to allow absolute below to work properly */
 }
 
-.post time { /* Absolute positioning */
+.post time { /* Absolute positioning to the time */
 	position: absolute; 
 	right: 10px;
 	top: 10px;
 
 }
 
+.tip img { /* tiny corner img absolute position */
+	position: absolute;
+	left: 0;
+	top: 100%;
 
+}
 
 
 
