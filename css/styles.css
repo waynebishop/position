@@ -3,3 +3,43 @@
 }	*/
 
 /*Comment goes here*/
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #999999;
+	padding: 10px;
+}
+
+.tip {
+	padding: 10px;
+	padding-left: 40px;
+	position: relative; /* start relative positioning */
+	left: -20px; /* shift it 20 pixels left */
+	margin-bottom: 20px;
+}
+
+.info {
+	background-color: #00b9ff;
+}
+
+.warning {
+	background-color: red;
+}
+
+.unreleased {
+	background-color: yellow;
+}
+
+
+.tip i { /* Icon*/
+	font-size: 24px; /* make bigger */
+	position: absolute; /* make absolute */
+	top: 30px; /* 32px from top. NOTE: the top is the top edge of the 1st Relative positioned element above it ie the .info-tip div above */
+	left: 11px;
+}
+
+.warning i {  /* small reposition of the ! warning icon */
+	left: 17px;
+}
+
