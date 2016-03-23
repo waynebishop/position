@@ -60,3 +60,24 @@ main {
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
 
 }
+
+.post {
+	background-color: white;
+	width: 66.666%;
+	padding: 10px;
+	margin-top: 20px;
+	position: relative; /* to allow absolute below to work properly */
+}
+
+.post time { /* Absolute positioning */
+	position: absolute; 
+	right: 10px;
+	top: 10px;
+
+}
+
+
+
+
+
+
